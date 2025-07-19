@@ -22,6 +22,7 @@ class ProductsController {
         image: p.image,
         category: p.category,
         countInStock: 10, // default stock
+        rating: p.rating || 4, // import rating
       }));
       // Insert into MongoDB
       await Product.insertMany(mapped);

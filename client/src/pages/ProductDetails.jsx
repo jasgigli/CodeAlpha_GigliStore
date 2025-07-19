@@ -41,6 +41,10 @@ const ProductDetails = () => {
 
   const displayProduct = usingFallback ? fallbackProduct : product;
 
+  // Support both backend (_id/name) and fallback (id/title) fields
+  const title = displayProduct?.name || displayProduct?.title;
+  const rating = displayProduct?.rating || 4;
+
   if (isLoading && !usingFallback)
     return <div className="text-center py-16 text-lg">Loading product...</div>;
   if (!displayProduct)
@@ -59,7 +63,7 @@ const ProductDetails = () => {
             displayProduct.thumbnail ||
             "https://via.placeholder.com/300"
           }
-          alt={displayProduct.title}
+          alt={title}
           className="object-contain h-64 w-full"
           onError={(e) => {
             e.target.onerror = null;
@@ -68,10 +72,10 @@ const ProductDetails = () => {
         />
       </div>
       <div className="flex-1 flex flex-col">
-        <h2 className="text-2xl font-bold mb-2">{displayProduct.title}</h2>
+        <h2 className="text-2xl font-bold mb-2">{title}</h2>
         <div className="text-yellow-500 text-lg mb-2">
-          {"★".repeat(Math.round(displayProduct.rating || 4))}
-          {"☆".repeat(5 - Math.round(displayProduct.rating || 4))}
+          {"★".repeat(Math.round(rating))}
+          {"☆".repeat(5 - Math.round(rating))}
         </div>
         <div className="font-bold text-2xl mb-4">
           ${displayProduct.price?.toFixed(2) || "0.00"}

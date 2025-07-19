@@ -44,7 +44,7 @@ const Cart = () => {
                       <span>{item.title}</span>
                     </td>
                     <td className="py-2 font-bold">
-                      ${item.price?.toFixed(2) || "0.00"}
+                      ${Number(item.price || 0).toFixed(2)}
                     </td>
                     <td className="py-2">
                       <button
