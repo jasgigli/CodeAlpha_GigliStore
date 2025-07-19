@@ -6,7 +6,10 @@ const Cart = () => {
   const { items, removeFromCart, clearCart } = useCartStore();
   const navigate = useNavigate();
 
-  const subtotal = items.reduce((sum, item) => sum + (item.price || 0), 0);
+  const subtotal = items.reduce(
+    (sum, item) => sum + Number(item.price || 0),
+    0
+  );
 
   return (
     <div className="max-w-4xl mx-auto bg-white rounded-lg shadow p-6 mt-4">
@@ -61,7 +64,7 @@ const Cart = () => {
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center mt-6 gap-4">
             <div className="text-xl font-bold">
-              Subtotal: ${subtotal.toFixed(2)}
+              Subtotal: ${Number(subtotal).toFixed(2)}
             </div>
             <div className="flex gap-2">
               <button
