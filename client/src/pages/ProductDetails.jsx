@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useCartStore } from "../stores/cartStore";
 
@@ -19,11 +19,31 @@ const ProductDetails = () => {
     queryKey: ["product", id],
     queryFn: () => fetchProduct(id),
   });
+  const [fallbackProduct, setFallbackProduct] = useState(null);
+  const [usingFallback, setUsingFallback] = useState(false);
   const addToCart = useCartStore((state) => state.addToCart);
 
-  if (isLoading)
+  useEffect(() => {
+    if (error) {
+      // Try fallback API
+      fetch(`https://dummyjson.com/products/${id}`)
+        .then((res) => (res.ok ? res.json() : null))
+        .then((data) => {
+          if (data && data.id) {
+            setFallbackProduct(data);
+            setUsingFallback(true);
+          }
+        });
+    } else {
+      setUsingFallback(false);
+    }
+  }, [error, id]);
+
+  const displayProduct = usingFallback ? fallbackProduct : product;
+
+  if (isLoading && !usingFallback)
     return <div className="text-center py-16 text-lg">Loading product...</div>;
-  if (error)
+  if (!displayProduct)
     return (
       <div className="text-center py-16 text-red-500">
         Failed to load product.
@@ -34,23 +54,31 @@ const ProductDetails = () => {
     <div className="max-w-4xl mx-auto bg-white rounded-lg shadow p-8 flex flex-col md:flex-row gap-8">
       <div className="flex-1 flex items-center justify-center">
         <img
-          src={product.image || "https://via.placeholder.com/300"}
-          alt={product.title}
+          src={
+            displayProduct.image ||
+            displayProduct.thumbnail ||
+            "https://via.placeholder.com/300"
+          }
+          alt={displayProduct.title}
           className="object-contain h-64 w-full"
+          onError={(e) => {
+            e.target.onerror = null;
+            e.target.src = "https://via.placeholder.com/300";
+          }}
         />
       </div>
       <div className="flex-1 flex flex-col">
-        <h2 className="text-2xl font-bold mb-2">{product.title}</h2>
+        <h2 className="text-2xl font-bold mb-2">{displayProduct.title}</h2>
         <div className="text-yellow-500 text-lg mb-2">
-          {"★".repeat(Math.round(product.rating || 4))}
-          {"☆".repeat(5 - Math.round(product.rating || 4))}
+          {"★".repeat(Math.round(displayProduct.rating || 4))}
+          {"☆".repeat(5 - Math.round(displayProduct.rating || 4))}
         </div>
         <div className="font-bold text-2xl mb-4">
-          ${product.price?.toFixed(2) || "0.00"}
+          ${displayProduct.price?.toFixed(2) || "0.00"}
         </div>
-        <p className="mb-6 text-gray-700">{product.description}</p>
+        <p className="mb-6 text-gray-700">{displayProduct.description}</p>
         <button
-          onClick={() => addToCart(product)}
+          onClick={() => addToCart(displayProduct)}
           className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-6 rounded w-full md:w-auto"
         >
           Add to Cart

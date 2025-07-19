@@ -1,4 +1,5 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
 import { useProducts } from "../hooks/useProducts";
@@ -11,9 +12,26 @@ const Products = () => {
   const query = useQuery();
   const category = query.get("category");
   const { data: products, isLoading, error } = useProducts();
+  const [fallbackProducts, setFallbackProducts] = useState([]);
+  const [usingFallback, setUsingFallback] = useState(false);
 
-  // Defensive: always use an array
-  const safeProducts = Array.isArray(products) ? products : [];
+  // Fetch fallback products if backend returns empty
+  useEffect(() => {
+    if (Array.isArray(products) && products.length === 0) {
+      axios.get("https://dummyjson.com/products?limit=30").then((res) => {
+        setFallbackProducts(res.data.products || []);
+        setUsingFallback(true);
+      });
+    } else {
+      setUsingFallback(false);
+    }
+  }, [products]);
+
+  const safeProducts = usingFallback
+    ? fallbackProducts
+    : Array.isArray(products)
+    ? products
+    : [];
 
   const filteredProducts =
     category && safeProducts.length > 0
@@ -27,7 +45,7 @@ const Products = () => {
       </h2>
       {isLoading ? (
         <div className="text-center py-16 text-lg">Loading products...</div>
-      ) : error ? (
+      ) : error && !usingFallback ? (
         <div className="text-center py-16 text-red-500">
           Failed to load products.
         </div>

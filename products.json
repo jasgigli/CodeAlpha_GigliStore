@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Apple iPhone 14 Pro",
+    "description": "6.1-inch Super Retina XDR display, A16 Bionic chip, Pro camera system, 5G capable.",
+    "price": 999.99,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-model-unselect-gallery-1-202209?wid=5120&hei=2880&fmt=jpeg&qlt=80&.v=1660753619946",
+    "category": "Electronics",
+    "rating": 4.8
+  },
+  {
+    "title": "Sony WH-1000XM5 Wireless Headphones",
+    "description": "Industry-leading noise canceling with Dual Noise Sensor technology, up to 30 hours battery life.",
+    "price": 348.0,
+    "image": "https://m.media-amazon.com/images/I/71o8Q5XJS5L._AC_SL1500_.jpg",
+    "category": "Electronics",
+    "rating": 4.7
+  },
+  {
+    "title": "Samsung Galaxy Watch 5",
+    "description": "Advanced health monitoring, fitness tracking, and long-lasting battery.",
+    "price": 279.99,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/2208/gallery/levant-galaxy-watch5-44mm-sm-r910nzaamea-533964991?$650_519_PNG$",
+    "category": "Wearables",
+    "rating": 4.5
+  },
+  {
+    "title": "LEGO Classic Bricks and Animals",
+    "description": "1,500 pieces for creative building, includes instructions for 10 animal models.",
+    "price": 49.99,
+    "image": "https://m.media-amazon.com/images/I/81QF4l5lJwL._AC_SL1500_.jpg",
+    "category": "Toys",
+    "rating": 4.9
+  },
+  {
+    "title": "Fossil Gen 6 Smartwatch",
+    "description": "Stainless steel, Alexa built-in, heart rate and activity tracking, GPS, speaker.",
+    "price": 299.0,
+    "image": "https://m.media-amazon.com/images/I/71Q0Qb8pQwL._AC_SL1500_.jpg",
+    "category": "Wearables",
+    "rating": 4.3
+  },
+  {
+    "title": "Barbie Dreamhouse Dollhouse",
+    "description": "Three stories, 70+ accessories, working elevator, pool, slide, lights and sounds.",
+    "price": 199.99,
+    "image": "https://m.media-amazon.com/images/I/81QwQ4Q4QwL._AC_SL1500_.jpg",
+    "category": "Toys",
+    "rating": 4.6
+  },
+  {
+    "title": "Canon EOS Rebel T7 DSLR Camera",
+    "description": "24.1 MP CMOS sensor, built-in Wi-Fi, full HD video, 18-55mm lens included.",
+    "price": 479.0,
+    "image": "https://m.media-amazon.com/images/I/81rA2B6KzUL._AC_SL1500_.jpg",
+    "category": "Electronics",
+    "rating": 4.7
+  },
+  {
+    "title": "Hot Wheels 50-Car Pack",
+    "description": "Ultimate starter set for car enthusiasts, includes 50 Hot Wheels vehicles.",
+    "price": 54.99,
+    "image": "https://m.media-amazon.com/images/I/91Q5d7r5QwL._AC_SL1500_.jpg",
+    "category": "Toys",
+    "rating": 4.8
+  }
+]

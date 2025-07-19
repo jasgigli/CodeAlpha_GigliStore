@@ -10,9 +10,17 @@ const ProductCard = ({ product }) => {
       <div className="flex-1 flex items-center justify-center mb-4">
         <Link to={`/products/${product.id}`} className="block w-full">
           <img
-            src={product.image || "https://via.placeholder.com/150"}
+            src={
+              product.image ||
+              product.thumbnail ||
+              "https://via.placeholder.com/150"
+            }
             alt={product.title}
             className="object-contain h-32 w-full"
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = "https://via.placeholder.com/150";
+            }}
           />
         </Link>
       </div>
