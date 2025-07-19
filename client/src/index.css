@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+@layer utilities {
+  .bg-amazon-blue {
+    background-color: #131921;
+  }
+  .bg-amazon-blue-light {
+    background-color: #232f3e;
+  }
+}
