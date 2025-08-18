@@ -16,36 +16,36 @@
     "rating": 4.7
   },
   {
-    "title": "Samsung Galaxy Watch 5",
-    "description": "Advanced health monitoring, fitness tracking, and long-lasting battery.",
-    "price": 279.99,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/2208/gallery/levant-galaxy-watch5-44mm-sm-r910nzaamea-533964991?$650_519_PNG$",
-    "category": "Wearables",
+    "title": "Samsung QN90B Neo QLED 4K TV",
+    "description": "Quantum Matrix Technology, Mini LED backlighting, and Object Tracking Sound+ for an immersive experience.",
+    "price": 1499.99,
+    "image": "https://m.media-amazon.com/images/I/81S2G0x1dFL._AC_SL1500_.jpg",
+    "category": "Electronics",
+    "rating": 4.6
+  },
+  {
+    "title": "Dell XPS 15 Laptop",
+    "description": "15.6-inch 3.5K OLED touch display, 12th Gen Intel Core i7, 16GB RAM, 512GB SSD, NVIDIA GeForce RTX 3050 Ti.",
+    "price": 2049.99,
+    "image": "https://m.media-amazon.com/images/I/71u9N1QobRL._AC_SL1500_.jpg",
+    "category": "Electronics",
     "rating": 4.5
   },
   {
-    "title": "LEGO Classic Bricks and Animals",
-    "description": "1,500 pieces for creative building, includes instructions for 10 animal models.",
-    "price": 49.99,
-    "image": "https://m.media-amazon.com/images/I/81QF4l5lJwL._AC_SL1500_.jpg",
-    "category": "Toys",
+    "title": "Nintendo Switch – OLED Model",
+    "description": "7-inch OLED screen, a wide adjustable stand, a dock with a wired LAN port, 64 GB of internal storage.",
+    "price": 349.99,
+    "image": "https://m.media-amazon.com/images/I/71m4W4S2uYL._AC_SL1500_.jpg",
+    "category": "Electronics",
     "rating": 4.9
   },
   {
-    "title": "Fossil Gen 6 Smartwatch",
-    "description": "Stainless steel, Alexa built-in, heart rate and activity tracking, GPS, speaker.",
-    "price": 299.0,
-    "image": "https://m.media-amazon.com/images/I/71Q0Qb8pQwL._AC_SL1500_.jpg",
-    "category": "Wearables",
-    "rating": 4.3
-  },
-  {
-    "title": "Barbie Dreamhouse Dollhouse",
-    "description": "Three stories, 70+ accessories, working elevator, pool, slide, lights and sounds.",
-    "price": 199.99,
-    "image": "https://m.media-amazon.com/images/I/81QwQ4Q4QwL._AC_SL1500_.jpg",
-    "category": "Toys",
-    "rating": 4.6
+    "title": "Amazon Echo Dot (5th Gen)",
+    "description": "Smart speaker with Alexa. Deeper bass, clearer vocals, and a temperature sensor.",
+    "price": 49.99,
+    "image": "https://m.media-amazon.com/images/I/61y4Qd3LgAL._AC_SL1000_.jpg",
+    "category": "Electronics",
+    "rating": 4.7
   },
   {
     "title": "Canon EOS Rebel T7 DSLR Camera",
@@ -56,11 +56,251 @@
     "rating": 4.7
   },
   {
+    "title": "Samsung Galaxy Watch 5",
+    "description": "Advanced health monitoring, fitness tracking, and long-lasting battery.",
+    "price": 279.99,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/2208/gallery/levant-galaxy-watch5-44mm-sm-r910nzaamea-533964991?$650_519_PNG$",
+    "category": "Wearables",
+    "rating": 4.5
+  },
+  {
+    "title": "Fossil Gen 6 Smartwatch",
+    "description": "Stainless steel, Alexa built-in, heart rate and activity tracking, GPS, speaker.",
+    "price": 299.0,
+    "image": "https://m.media-amazon.com/images/I/71Q0Qb8pQwL._AC_SL1500_.jpg",
+    "category": "Wearables",
+    "rating": 4.3
+  },
+  {
+    "title": "Apple Watch Ultra 2",
+    "description": "Rugged titanium case, precision dual-frequency GPS, up to 36 hours of battery life, and advanced health sensors.",
+    "price": 799.0,
+    "image": "https://m.media-amazon.com/images/I/91z5KuB4DqL._AC_SL1500_.jpg",
+    "category": "Wearables",
+    "rating": 4.8
+  },
+  {
+    "title": "Fitbit Charge 6",
+    "description": "Advanced Fitness & Health Tracker with Google apps, Heart Rate on exercise equipment, 6 months Premium.",
+    "price": 159.95,
+    "image": "https://m.media-amazon.com/images/I/61b96+Y78NL._AC_SL1500_.jpg",
+    "category": "Wearables",
+    "rating": 4.4
+  },
+  {
+    "title": "Garmin Fenix 7 Pro Solar",
+    "description": "Solar charging multisport GPS watch with scratch-resistant Power Sapphire lens, long-lasting battery, and advanced training features.",
+    "price": 699.99,
+    "image": "https://m.media-amazon.com/images/I/71L5lsw63GL._AC_SL1500_.jpg",
+    "category": "Wearables",
+    "rating": 4.7
+  },
+  {
+    "title": "LEGO Classic Bricks and Animals",
+    "description": "1,500 pieces for creative building, includes instructions for 10 animal models.",
+    "price": 49.99,
+    "image": "https://m.media-amazon.com/images/I/81QF4l5lJwL._AC_SL1500_.jpg",
+    "category": "Toys",
+    "rating": 4.9
+  },
+  {
+    "title": "Barbie Dreamhouse Dollhouse",
+    "description": "Three stories, 70+ accessories, working elevator, pool, slide, lights and sounds.",
+    "price": 199.99,
+    "image": "https://m.media-amazon.com/images/I/81QwQ4Q4QwL._AC_SL1500_.jpg",
+    "category": "Toys",
+    "rating": 4.6
+  },
+  {
     "title": "Hot Wheels 50-Car Pack",
     "description": "Ultimate starter set for car enthusiasts, includes 50 Hot Wheels vehicles.",
     "price": 54.99,
     "image": "https://m.media-amazon.com/images/I/91Q5d7r5QwL._AC_SL1500_.jpg",
     "category": "Toys",
     "rating": 4.8
+  },
+  {
+    "title": "Catan Board Game",
+    "description": "The incredibly popular, multi-award winning civilization building board game of harvesting and trading resources.",
+    "price": 43.99,
+    "image": "https://m.media-amazon.com/images/I/81eI0OQV-FL._AC_SL1500_.jpg",
+    "category": "Toys",
+    "rating": 4.8
+  },
+  {
+    "title": "Melissa & Doug Wooden Blocks Set",
+    "description": "100 solid wood blocks in four colors and nine shapes for your child's first building set.",
+    "price": 22.99,
+    "image": "https://m.media-amazon.com/images/I/81k1y63zJDL._AC_SL1500_.jpg",
+    "category": "Toys",
+    "rating": 4.9
+  },
+  {
+    "title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+    "description": "Combines 7 kitchen appliances in 1: Pressure Cooker, Slow Cooker, Rice Cooker, Steamer, Sauté, Yogurt Maker and Warmer.",
+    "price": 89.99,
+    "image": "https://m.media-amazon.com/images/I/71V2g-b2TOL._AC_SL1500_.jpg",
+    "category": "Home & Kitchen",
+    "rating": 4.7
+  },
+  {
+    "title": "Ninja AF101 Air Fryer",
+    "description": "4-quart capacity for guilt-free food. Wide temperature range: 105°F to 400°F allows you to gently remove moisture.",
+    "price": 89.95,
+    "image": "https://m.media-amazon.com/images/I/81oAsn9-YGL._AC_SL1500_.jpg",
+    "category": "Home & Kitchen",
+    "rating": 4.8
+  },
+  {
+    "title": "Keurig K-Elite Coffee Maker",
+    "description": "Single serve K-Cup pod coffee brewer. Iced coffee capability, brew strength control, and multiple brew sizes.",
+    "price": 139.99,
+    "image": "https://m.media-amazon.com/images/I/719hK1MA9-L._AC_SL1500_.jpg",
+    "category": "Home & Kitchen",
+    "rating": 4.6
+  },
+  {
+    "title": "Dyson V11 Torque Drive Cordless Vacuum Cleaner",
+    "description": "Twice the suction of any cord-free vacuum. High Torque cleaner head intelligently adapts to different floor types.",
+    "price": 599.0,
+    "image": "https://m.media-amazon.com/images/I/71CH12gKWSL._AC_SL1500_.jpg",
+    "category": "Home & Kitchen",
+    "rating": 4.7
+  },
+  {
+    "title": "iRobot Roomba j7+ (7550) Self-Emptying Robot Vacuum",
+    "description": "Identifies and avoids obstacles like pet waste & cords. Empties itself into the Clean Base Automatic Dirt Disposal.",
+    "price": 799.0,
+    "image": "https://m.media-amazon.com/images/I/81rYyDaP46L._AC_SL1500_.jpg",
+    "category": "Home & Kitchen",
+    "rating": 4.4
+  },
+  {
+    "title": "Atomic Habits by James Clear",
+    "description": "An Easy & Proven Way to Build Good Habits & Break Bad Ones. A supremely practical and useful book.",
+    "price": 13.79,
+    "image": "https://m.media-amazon.com/images/I/81wgcld4wxL._AC_SL1500_.jpg",
+    "category": "Books",
+    "rating": 4.8
+  },
+  {
+    "title": "The Lord of the Rings by J.R.R. Tolkien",
+    "description": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
+    "price": 22.49,
+    "image": "https://m.media-amazon.com/images/I/71jLBXtWJWL._AC_SL1500_.jpg",
+    "category": "Books",
+    "rating": 4.9
+  },
+  {
+    "title": "Dune by Frank Herbert",
+    "description": "The stunning blend of adventure and mysticism, environmentalism and politics, now a major motion picture.",
+    "price": 9.99,
+    "image": "https://m.media-amazon.com/images/I/81ym3QUd3KL._AC_SL1500_.jpg",
+    "category": "Books",
+    "rating": 4.7
+  },
+  {
+    "title": "Becoming by Michelle Obama",
+    "description": "An intimate, powerful, and inspiring memoir by the former First Lady of the United States.",
+    "price": 11.89,
+    "image": "https://m.media-amazon.com/images/I/81h2gWPTYJL._AC_SL1500_.jpg",
+    "category": "Books",
+    "rating": 4.8
+  },
+  {
+    "title": "Levi's Men's 501 Original Fit Jeans",
+    "description": "The original blue jean since 1873. The original straight fit jean, with the iconic button fly.",
+    "price": 49.99,
+    "image": "https://m.media-amazon.com/images/I/81q1LEUaDVL._AC_UL1500_.jpg",
+    "category": "Clothing & Fashion",
+    "rating": 4.5
+  },
+  {
+    "title": "Carhartt Men's Loose Fit Midweight Sweatshirt",
+    "description": "A comfortable sweatshirt that's tough enough for the workday. Made of a 10.5-ounce cotton blend.",
+    "price": 49.99,
+    "image": "https://m.media-amazon.com/images/I/81TisfS7i+L._AC_UL1500_.jpg",
+    "category": "Clothing & Fashion",
+    "rating": 4.8
+  },
+  {
+    "title": "Dr. Martens 1460 8-Eye Leather Boot",
+    "description": "Unisex combat boot with classic smooth leather, 8 eyes, grooved sides, a heel-loop, yellow stitching, and a comfortable, air-cushioned sole.",
+    "price": 170.0,
+    "image": "https://m.media-amazon.com/images/I/71u9rDSEuRL._AC_UL1500_.jpg",
+    "category": "Clothing & Fashion",
+    "rating": 4.7
+  },
+  {
+    "title": "Ray-Ban RB2132 New Wayfarer Sunglasses",
+    "description": "A modern take on a timeless classic. The New Wayfarer is a slightly smaller interpretation of the Original Wayfarer.",
+    "price": 151.0,
+    "image": "https://m.media-amazon.com/images/I/61b7b3wA1VL._AC_UL1500_.jpg",
+    "category": "Clothing & Fashion",
+    "rating": 4.6
+  },
+  {
+    "title": "YETI Tundra 45 Cooler",
+    "description": "The Tundra 45 combines versatility with durability. Infused with that legendary YETI toughness, it's a great all-purpose cooler.",
+    "price": 299.99,
+    "image": "https://m.media-amazon.com/images/I/71h5c4s3uNL._AC_SL1500_.jpg",
+    "category": "Sports & Outdoors",
+    "rating": 4.8
+  },
+  {
+    "title": "Coleman Sundome Camping Tent",
+    "description": "4-person dome camping tent with a spacious interior. WeatherTec system with patented welded floors and inverted seams.",
+    "price": 69.99,
+    "image": "https://m.media-amazon.com/images/I/91f2bW7iS-L._AC_SL1500_.jpg",
+    "category": "Sports & Outdoors",
+    "rating": 4.6
+  },
+  {
+    "title": "Hydro Flask Wide Mouth Water Bottle",
+    "description": "32 oz bottle with straw lid. TempShield insulation eliminates condensation and keeps beverages cold up to 24 hours and hot up to 12 hours.",
+    "price": 44.95,
+    "image": "https://m.media-amazon.com/images/I/513Lp8922GL._AC_SL1500_.jpg",
+    "category": "Sports & Outdoors",
+    "rating": 4.8
+  },
+  {
+    "title": "Spalding NBA Street Basketball",
+    "description": "Official NBA size and weight: Size 7, 29.5\". Performance outdoor rubber cover. Designed for outdoor play.",
+    "price": 17.99,
+    "image": "https://m.media-amazon.com/images/I/91sjL9o0exL._AC_SL1500_.jpg",
+    "category": "Sports & Outdoors",
+    "rating": 4.7
+  },
+  {
+    "title": "CeraVe Hydrating Facial Cleanser",
+    "description": "For Normal to Dry Skin. Cleanses, hydrates and helps restore the protective skin barrier with ceramides.",
+    "price": 14.99,
+    "image": "https://m.media-amazon.com/images/I/61S70Y223UL._SL1500_.jpg",
+    "category": "Beauty & Personal Care",
+    "rating": 4.7
+  },
+  {
+    "title": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "description": "High-Strength Vitamin and Mineral Blemish Formula. Helps to reduce the appearance of skin blemishes and congestion.",
+    "price": 6.5,
+    "image": "https://m.media-amazon.com/images/I/41LdJ27m2NL._SL1500_.jpg",
+    "category": "Beauty & Personal Care",
+    "rating": 4.6
+  },
+  {
+    "title": "Revlon One-Step Volumizer Hair Dryer and Hot Air Brush",
+    "description": "Deliver gorgeous volume and brilliant shine in a single step. Unique oval brush design for smoothing the hair, while the round edges create volume.",
+    "price": 34.88,
+    "image": "https://m.media-amazon.com/images/I/71aX3u02Z-L._SL1500_.jpg",
+    "category": "Beauty & Personal Care",
+    "rating": 4.6
+  },
+  {
+    "title": "Philips Norelco Multigroomer All-in-One Trimmer Series 7000",
+    "description": "23 piece grooming kit for beard, head, body, and face. DualCut technology for maximum precision.",
+    "price": 54.99,
+    "image": "https://m.media-amazon.com/images/I/81Wb2aU1WKL._SL1500_.jpg",
+    "category": "Beauty & Personal Care",
+    "rating": 4.7
   }
 ]
